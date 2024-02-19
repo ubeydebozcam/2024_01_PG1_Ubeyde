@@ -12,10 +12,10 @@ public class S21 {
         double yillikFaizOrani = scan.nextDouble();
         System.out.print(" Lütfen yıl sayısını giriniz :");
         double yilSayisi = scan.nextDouble();
-        double aylikFaizOrani = yillikFaizOrani / 12 / 100;
+        double aylikFaizOrani = yillikFaizOrani / 1200;
 
 
-        double yatiriminGeriDonusDegeri = yatirimMiktari * (1 + aylikFaizOrani);
+        double yatiriminGeriDonusDegeri = yatirimMiktari * Math.pow(1 + aylikFaizOrani , yilSayisi * 12);
         System.out.println(yatiriminGeriDonusDegeri);
 
 
