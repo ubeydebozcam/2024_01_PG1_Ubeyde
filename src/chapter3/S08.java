@@ -21,27 +21,19 @@ public class S08 {
             System.out.println(" En büyük sayı :" + sayi3);
         }
 
-        if (sayi1 < sayi2 || sayi2 > sayi3)
-        {
+        if ((sayi1 < sayi2 && sayi2 < sayi3) || (sayi3 < sayi2 && sayi2 < sayi1)) {
+            System.out.println(" Ortanca sayı :" + sayi2);
+        } else if ((sayi2 < sayi1 && sayi1 < sayi3) || (sayi3 < sayi1 && sayi1 < sayi2)) {
             System.out.println(" Ortanca sayı :" + sayi1);
-        } else if (sayi2 < sayi1 || sayi1 > sayi3)
-            {
-                System.out.println(" Ortanca sayı :" + sayi2);
-        }
-        else
-        {
+        } else {
             System.out.println(" Ortanca sayı : " + sayi3);
         }
-        if (sayi1 < sayi2 || sayi1 < sayi3)
-        {
-            System.out.println(" En küçük sayı :" + sayi1 );
-        } else if (sayi2 < sayi1 && sayi2 < sayi3)
-            {
-                System.out.println(" En küçük sayı :" +sayi2);
-        }
-        else
-        {
-            System.out.println(" En küçük sayı :" +sayi3);
+        if (sayi1 < sayi2 || sayi1 < sayi3) {
+            System.out.println(" En küçük sayı :" + sayi1);
+        } else if (sayi2 < sayi1 && sayi2 < sayi3) {
+            System.out.println(" En küçük sayı :" + sayi2);
+        } else {
+            System.out.println(" En küçük sayı :" + sayi3);
         }
 
     }
