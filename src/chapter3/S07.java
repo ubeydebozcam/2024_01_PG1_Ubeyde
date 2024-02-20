@@ -21,7 +21,7 @@ public class S07 {
         kalanMiktar %= 5;
         int birKuruslar = kalanMiktar;
 
-        if (dolarSayısı %2 == 0)
+        if (dolarSayısı > 1)
         {
             System.out.println(dolarSayısı + " Dolarlar");
         }
@@ -29,7 +29,7 @@ public class S07 {
         {
             System.out.println(dolarSayısı + " Dolar");
         }
-        if (yarım %2 == 0)
+        if (yarım > 1)
         {
             System.out.println(yarım + " Yarımlar ");
         }
@@ -37,7 +37,7 @@ public class S07 {
         {
             System.out.println(yarım + " Yarım ");
         }
-        if (ceyrekler %2 == 0 )
+        if (ceyrekler > 1 )
         {
             System.out.println(ceyrekler + " Çeyrekler ");
         }
@@ -45,7 +45,7 @@ public class S07 {
         {
             System.out.println(ceyrekler + " Çeyrek ");
         }
-        if (onKurusluklar %2 == 0)
+        if (onKurusluklar > 1)
         {
             System.out.println(onKurusluklar + " On kuruşlar");
         }
@@ -53,7 +53,7 @@ public class S07 {
         {
             System.out.println(onKurusluklar + " On kuruş ");
         }
-        if (besKurusluklar %2 == 0)
+        if (besKurusluklar > 1)
         {
             System.out.println(besKurusluklar + " Beş kuruşlar ");
         }
@@ -61,7 +61,7 @@ public class S07 {
         {
             System.out.println(besKurusluklar + " Beş kuruş ");
         }
-        if (birKuruslar %2 == 0)
+        if (birKuruslar > 1)
         {
             System.out.println(birKuruslar + " Bir Kuruşlar ");
         }
