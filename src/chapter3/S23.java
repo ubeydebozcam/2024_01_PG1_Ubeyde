@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class S23 {
     public static void main(String[] args) {
 
+        // İşlem hatası var
         Scanner scan = new Scanner(System.in);
 
         System.out.print(" Lütfen x noktasını giriniz : ");
