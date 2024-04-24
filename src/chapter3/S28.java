@@ -36,17 +36,15 @@ public class S28 {
         double x2min = x2 - w2;  // Didkdörtgenin durumunu belirlemek için kullanılır.
         double y2min = y2 - h2;  // Didkdörtgenin durumunu belirlemek için kullanılır.
 
-        if (x1max == y1max && x1min == y1min && x2max == y2max && x2min == y2min) {
+        if (x1max == x2max && x1min == x2min && y1max == y2max && y1min == y2min) {
             System.out.println(" Bu dikdörtgenler eş dikdörtgenlerdir ");
-
         } else if (x1max <= x2max && x1min >= x2min && y1max <= y2max && y1min >= y2min) {
-            System.out.print("r1 dikdörtgeni r2 dikdörtgeninin içindedir ");
-        }
-        else if ((x1max < x2min) || (x1min > x2max) || (y1max < y2min) || (y2min > y1max))
-        {
+            System.out.print("R1 dikdörtgeni R2 dikdörtgeninin içindedir ");
+        } else if ((x1max < x2min) || (x1min > x2max) || (y1max < y2min) || (y2min > y1max)) {
             System.out.println(" R2 dikdörtgeni R1 dikdörtgeni ile kesişmiyor ");
-        }
-        else {
+        } else if (x2max <= x1max && x2min >= x1min && y2max <= y1max && y2min >= y1min) {
+            System.out.println(" R2 dikdörtgeni R1 dikdörtgeninin içindedir ");
+        } else {
             System.out.println(" R2 dikdörtgeni R1 dikdörtgeni ile kesişiyor ");
         }
 
