@@ -12,7 +12,8 @@ public class S02 {
         System.out.print(sayi1 + " + " + sayi2 + " + " + sayi3 + " Toplamı nedir ? :");
 
         int sonuc = scan.nextInt();
-        System.out.println(sayi1 + " + " + sayi2 + " + " +  sayi3 + " = " + sonuc + " sonuç " + (sayi1 + sayi2 + sayi3 == sonuc));
+        System.out.println(sayi1 + " + " + sayi2 + " + " +  sayi3
+                + " = " + sonuc + " sonuç " + (sayi1 + sayi2 + sayi3 == sonuc));
 
     }
 }

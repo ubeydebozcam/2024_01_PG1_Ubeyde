@@ -13,7 +13,7 @@ public class S01 {
         double alan = (5 * Math.pow(s , 2)) / (4 * Math.tan(Math.PI / 5));
 
 
-        double yuvarlanmısDeger = Math.round(alan * 100.0) / 100.0;
-        System.out.println("Alan: " + yuvarlanmısDeger);
+        double yuvarlanmisDeger = Math.round(alan * 100.0) / 100.0;
+        System.out.println("Alan: " + yuvarlanmisDeger);
     }
 }
