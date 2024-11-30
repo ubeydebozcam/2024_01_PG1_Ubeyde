@@ -8,6 +8,8 @@ public class S12 {
         System.out.print(" Lütfen üç basamaklı bir sayı giriniz :");
         int sayi = scan.nextInt();
 
+
+
         int basamak1 = (int) (sayi / 100); // Yüzler basamağı
         int kalan = sayi % 100;
         int basamak3 = (int) (kalan % 10); // Birler masağı
